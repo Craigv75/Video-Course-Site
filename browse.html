@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link href="https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="alphalist/alphaListNav.js"></script>
+  <link rel="stylesheet" href="alphalist/alphaListNav.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>DHC-55 Education: Login</title>
+
+</head>
+
+<body>
+  <!-- Nav  -->
+
+  <nav class="navbar navbg navbar-expand-md text-uppercase">
+    <a href="index.html" class="navbar-brand mr-0 logo-text">DHC-55 Education</a>
+    <button class="navbar-toggler ml-1 custom-toggler" type="button" data-toggle="collapse"
+      data-target="#collapsingNavbar2">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container">
+      <div class="navbar-collapse collapse text-center w-100" id="collapsingNavbar2">
+        <ul class="nav navbar-nav w-100 justify-content-between">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Browse Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Support</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Student Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signup.html">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Search  -->
+  <div class="container-fluid navbg" style="padding:40px;">
+    <div class="row justify-content-center align-items-center">
+      <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3">
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control col-lg-9 mr-sm-2" type="search" placeholder="Find a course" aria-label="Search" />
+          <button class="btn btn-primary my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Browse Feature -->
+  <div class="container-fluid">
+    <div class="row justify-content-center align-items-center">
+      <div class="col col-sm-3 col-md-3 col-lg-4 col-xl-4">
+        <h1 class="text-center">Browse Courses</h1>
+
+        <h3 class="browse-heading">Learning Path</h3>
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.."
+          title="Type in a name" />
+
+        <ul id="myUL">
+          <li><a href="#">Accountant</a></li>
+          <li><a href="#">Business Manager</a></li>
+          <li><a href="#">Computer Technician</a></li>
+          <li><a href="student.html">Digital Marketing</a></li>
+          <li><a href="#">Human Resources Manager</a></li>
+          <li><a href="#">Project Manager</a></li>
+        </ul>
+
+        <h3 class="browse-heading">Category</h3>
+        <input type="text" id="myInput2" onkeyup="myFunction2()" placeholder="Search for names.."
+          title="Type in a name" />
+
+        <ul id="myUL2">
+          <li><a href="#">Business</a></li>
+          <li><a href="visitor.html">Marketing</a></li>
+          <li><a href="#">Project Management</a></li>
+          <li><a href="#">Information Technology</a></li>
+        </ul>
+
+        <h3 class="browse-heading">A-Z</h3>
+        <ul id="list-nav" class="list-nav alphaul">
+          <li class="item-class alphali"><a class="links" href="">Accounting</a></li>
+          <li class="item-class alphali"><a class="links" href="">Advertising</a></li>
+          <li class="item-class alphali"><a class="links" href="">Business</a></li>
+          <li class="item-class alphali"><a class="links" href="">Business Analysis</a></li>
+          <li class="item-class alphali"><a class="links" href="">Communication</a></li>
+          <li class="item-class alphali"><a class="links" href="">Computer Technician</a></li>
+          <li class="item-class alphali"><a class="links" href="">Finance</a></li>
+          <li class="item-class alphali"><a class="links" href="">Human Resources</a></li>
+          <li class="item-class alphali"><a class="links" href="">Information Technologies</a></li>
+          <li class="item-class alphali"><a class="links" href="">Interactive Media Management</a></li>
+          <li class="item-class alphali"><a class="links" href="">Internet Communications Technology</a></li>
+          <li class="item-class alphali"><a class="links" href="">Marketing Management</a></li>
+          <li class="item-class alphali"><a class="links" href="">Media Fundamentals</a></li>
+          <li class="item-class alphali"><a class="links" href="">Office Administration</a></li>
+          <li class="item-class alphali"><a class="links" href="">Project Management</a></li>
+          <li class="item-class alphali"><a class="links" href="">Quality Assurance</a></li>
+          <li class="item-class alphali"><a class="links" href="">Supply Chain Management</a></li>
+          <li class="item-class alphali"><a class="links" href="">Technology Fundamentals</a></li>
+        </ul>
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h4 class="text-uppercase font-weight-bold lighttext">
+            DHC-55 Education
+          </h4>
+          <hr class="mb-4 mt-0 d-inline-block mx-auto" />
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h4 class="text-uppercase font-weight-bold lighttext">Courses</h4>
+          <hr class="mb-4 mt-0 d-inline-block mx-auto" />
+          <p>
+            <a href="#!">Learning Path</a>
+          </p>
+          <p>
+            <a href="#!">Category</a>
+          </p>
+          <p>
+            <a href="#!">A-Z</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h4 class="text-uppercase font-weight-bold lighttext">Support</h4>
+          <hr class="mb-4 mt-0 d-inline-block mx-auto" />
+          <p>
+            <a href="#!">FAQ</a>
+          </p>
+          <p>
+            <a href="#!">Feedback</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="padding-top:50px;">
+          <!-- Links -->
+
+          <p><a href="#!">Login</a></p>
+          <p><a href="#!">Sign Up</a></p>
+          <p><a href="#!">Terms of Use</a></p>
+          <p><a href="#!">Contact Us</a></p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 lighttext">
+      © 2019 Copyright: DHC-55 Education
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <script>
+    function myFunction() {
+      var input, filter, ul, li, a, i, txtValue;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("myUL");
+      li = ul.getElementsByTagName("li");
+      for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+        } else {
+          li[i].style.display = "none";
+        }
+      }
+    }
+
+    function myFunction2() {
+      var input, filter, ul, li, a, i, txtValue;
+      input = document.getElementById("myInput2");
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("myUL2");
+      li = ul.getElementsByTagName("li");
+      for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+        } else {
+          li[i].style.display = "none";
+        }
+      }
+    }
+  </script>
+
+  <script>
+    const cityList = new AlphaListNav("list-nav");
+  </script>
+
+  <script type="text/javascript">
+    var _userway_config = {
+      account: 'o23kAkBJQ5'
+    };
+  </script>
+  <script type="text/javascript" src="https://cdn.userway.org/widget.js"></script>
+
+</body>
+
+</html>
